@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(Poppins/Poppins-SemiBold.ttf);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    margin: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.03);
+    height: 80px;
+    justify-content: space-between;
+    font-family: 'Poppins';
+}
+.ppa-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: #444BAB;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.Log-In-Details{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;  
+}
+.Log-In{
+    border: 2px solid  #444BAB;
+    border-radius: 6px;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    color: #444BAB;
+    line-height: 35px;
+}
+.Start-Free-Trail{
+    border: 2px solid  #444BAB;
+    border-radius: 6px;
+    width: 130px;
+    height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 35px;
+    background-color: #444BAB;
+}
+.lists{
+    line-height: 35px;
+    text-align: justify;
+    border: 1px solid #FFFFFF;
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+}
+h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #4F516B;
+    margin: 10px;
+}
+h3{
+    color: #65677E;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+h5{
+    color: #AEAFB1;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.web{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #FFFFFF;
+    width: 350px;
+    padding: 10px;
+    margin-top: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09)
+    
+}
